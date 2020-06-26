@@ -1,0 +1,41 @@
+.home {
+  flex: 1; 
+}
+
+.home-page {
+  text-align: left;
+  color: #5E56E7;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-image: url(../../Assets/Pattern.svg);
+}
+
+.desc{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 20px;
+  color: #333333;
+}
+
+.customCard{
+  border-radius: 4px;
+  padding: 0px 10px 0px 10px;
+  height: 50px;
+  box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+  margin-top: 20px;
+  background-color: white;
+}
+
+.customCard span{
+  display: flex; 
+  padding: 8px;
+}
+
+.card-body{
+  font-size: 20px; 
+  padding: 0px;
+}
+
+a:hover{
+  text-decoration: none;
+}
